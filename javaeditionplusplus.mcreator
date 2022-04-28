@@ -66,20 +66,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -101,30 +89,30 @@
       "registry_name": "pearl_scale_recipe"
     },
     {
-      "name": "EndV2",
-      "type": "biome",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "end_v_2"
-    },
-    {
       "name": "DragonV2",
       "type": "livingentity",
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_v_2"
+    },
+    {
+      "name": "AmongUsPickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_us_pickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.javaeditionplusplus.end_v_2": "End V2",
       "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
       "item.javaeditionplusplus.shell_blade": "Shell Blade",
       "item.javaeditionplusplus.ender_scale": "Ender Scale",
+      "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
       "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
       "item.javaeditionplusplus.ender_sword": "Ender Sword",
       "item.javaeditionplusplus.dragon_v_2_spawn_egg": "Dragon V 2 Spawn Egg",

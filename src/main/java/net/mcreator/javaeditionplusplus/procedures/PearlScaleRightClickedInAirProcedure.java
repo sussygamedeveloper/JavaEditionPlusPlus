@@ -1,17 +1,19 @@
 package net.mcreator.javaeditionplusplus.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraft.world.entity.projectile.Arrow;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 
 public class PearlScaleRightClickedInAirProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "",
-					new TextComponent(""), _level.getServer(), null).withSuppressedOutput(), "say Test!");
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof LivingEntity _ent_sa && !_ent_sa.level.isClientSide()) {
+			Arrow entityToSpawn = new Arrow(_ent_sa.level, _ent_sa);
+			entityToSpawn.shoot(entity.getLookAngle().x, entity.getLookAngle().y, entity.getLookAngle().z, 5, 0);
+			entityToSpawn.setBaseDamage(5);
+			entityToSpawn.setKnockback(5);
+			_ent_sa.level.addFreshEntity(entityToSpawn);
+		}
 	}
 }

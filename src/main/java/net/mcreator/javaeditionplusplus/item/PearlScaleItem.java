@@ -37,7 +37,7 @@ public class PearlScaleItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		PearlScaleRightClickedInAirProcedure.execute(world, x, y, z);
+		PearlScaleRightClickedInAirProcedure.execute(entity);
 		return ar;
 	}
 }

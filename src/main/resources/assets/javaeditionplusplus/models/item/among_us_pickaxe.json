@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "javaeditionplusplus:items/1759_among_us_red"
+  }
+}

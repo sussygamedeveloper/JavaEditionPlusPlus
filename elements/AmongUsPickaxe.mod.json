@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "1759_among_us_red",
+    "customModelName": "Normal",
+    "name": "Among Us Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:JavaEditionPlusPlus"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 5.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "PearlScaleRightClickedInAir"
+    }
+  }
+}

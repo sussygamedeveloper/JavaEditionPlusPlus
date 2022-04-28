@@ -15,6 +15,7 @@ import net.mcreator.javaeditionplusplus.item.ShellBladeItem;
 import net.mcreator.javaeditionplusplus.item.PearlScaleItem;
 import net.mcreator.javaeditionplusplus.item.EnderSwordItem;
 import net.mcreator.javaeditionplusplus.item.EnderScaleItem;
+import net.mcreator.javaeditionplusplus.item.AmongUsPickaxeItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -28,6 +29,7 @@ public class JavaeditionplusplusModItems {
 	public static final Item PEARL_SCALE = register(new PearlScaleItem());
 	public static final Item DRAGON_V_2 = register(new SpawnEggItem(JavaeditionplusplusModEntities.DRAGON_V_2, -1, -1,
 			new Item.Properties().tab(JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS)).setRegistryName("dragon_v_2_spawn_egg"));
+	public static final Item AMONG_US_PICKAXE = register(new AmongUsPickaxeItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
