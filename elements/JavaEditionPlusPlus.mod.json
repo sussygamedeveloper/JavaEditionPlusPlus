@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Java Edition Plus Plus",
+    "icon": {
+      "value": "CUSTOM:ShellBlade"
+    },
+    "showSearch": true
+  }
+}

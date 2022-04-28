@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShellBlade",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_blade"
+    },
+    {
+      "name": "JavaEditionPlusPlus",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "java_edition_plus_plus"
+    },
+    {
+      "name": "ShellBladeRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_blade_recipe"
+    },
+    {
+      "name": "EnderSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_sword"
+    },
+    {
+      "name": "EnderSwordRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_sword_recipe"
+    },
+    {
+      "name": "EnderScale",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_scale"
+    },
+    {
+      "name": "EnderScaleRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_scale_recipe"
+    },
+    {
+      "name": "PearlScaleRightClickedInAir",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_scale_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PearlScale",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_scale"
+    },
+    {
+      "name": "PearlScaleRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_scale_recipe"
+    },
+    {
+      "name": "EndV2",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_v_2"
+    },
+    {
+      "name": "DragonV2",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_v_2"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.javaeditionplusplus.end_v_2": "End V2",
+      "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
+      "item.javaeditionplusplus.shell_blade": "Shell Blade",
+      "item.javaeditionplusplus.ender_scale": "Ender Scale",
+      "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
+      "item.javaeditionplusplus.ender_sword": "Ender Sword",
+      "item.javaeditionplusplus.dragon_v_2_spawn_egg": "Dragon V 2 Spawn Egg",
+      "itemGroup.tabjava_edition_plus_plus": "Java Edition Plus Plus"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "javaeditionplusplus",
+    "modName": "JavaEditionPlusPlus",
+    "version": "1.0.0",
+    "author": "Parker, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.javaeditionplusplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
