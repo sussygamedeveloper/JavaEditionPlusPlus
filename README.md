@@ -1,3 +1,3 @@
 # JavaEditionPlusPlus
 
-A Mod That Makes Java Edition Better!
+# Version: Forge 1.17.1
