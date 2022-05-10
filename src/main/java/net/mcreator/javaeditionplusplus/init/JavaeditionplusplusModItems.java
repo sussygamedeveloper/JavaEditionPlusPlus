@@ -18,6 +18,7 @@ import net.mcreator.javaeditionplusplus.item.NokiaHammerItem;
 import net.mcreator.javaeditionplusplus.item.EnderSwordItem;
 import net.mcreator.javaeditionplusplus.item.EnderScaleItem;
 import net.mcreator.javaeditionplusplus.item.CopperSwordItem;
+import net.mcreator.javaeditionplusplus.item.CocaColaItem;
 import net.mcreator.javaeditionplusplus.item.AmongUsPickaxeItem;
 
 import java.util.List;
@@ -36,6 +37,7 @@ public class JavaeditionplusplusModItems {
 	public static final Item NOKIA = register(new NokiaItem());
 	public static final Item NOKIA_HAMMER = register(new NokiaHammerItem());
 	public static final Item COPPER_SWORD = register(new CopperSwordItem());
+	public static final Item COCA_COLA = register(new CocaColaItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

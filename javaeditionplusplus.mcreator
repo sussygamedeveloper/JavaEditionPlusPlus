@@ -60,7 +60,7 @@
       "name": "PearlScale",
       "type": "item",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pearl_scale"
     },
@@ -84,7 +84,7 @@
       "name": "AmongUsPickaxe",
       "type": "tool",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "among_us_pickaxe"
     },
@@ -151,6 +151,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave"
+    },
+    {
+      "name": "CocaColaFoodEaten",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coca_cola_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CocaCola",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coca_cola"
     }
   ],
   "variable_elements": [],
@@ -163,6 +187,7 @@
       "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
       "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
       "item.javaeditionplusplus.ender_scale": "Ender Scale",
+      "item.javaeditionplusplus.coca_cola": "Coca Cola",
       "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
       "item.javaeditionplusplus.ender_sword": "Ender Sword",
       "item.javaeditionplusplus.nokia_hammer": "Nokia Hammer",

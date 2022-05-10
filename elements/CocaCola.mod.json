@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "20-oz-bottle-coke",
+    "customModelName": "Normal",
+    "name": "Coca Cola",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:JavaEditionPlusPlus"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1000,
+    "saturation": 1000.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CocaColaFoodEaten"
+    }
+  }
+}

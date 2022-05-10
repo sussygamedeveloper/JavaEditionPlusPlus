@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "PearlScaleRightClickedInAir"
-    },
     "hasDispenseBehavior": false
   }
 }

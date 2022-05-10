@@ -26,9 +26,6 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "PearlScaleRightClickedInAir"
-    }
+    "damageOnCrafting": false
   }
 }
