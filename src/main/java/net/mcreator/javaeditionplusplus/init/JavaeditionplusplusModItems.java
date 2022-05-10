@@ -13,8 +13,11 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.javaeditionplusplus.item.ShellBladeItem;
 import net.mcreator.javaeditionplusplus.item.PearlScaleItem;
+import net.mcreator.javaeditionplusplus.item.NokiaItem;
+import net.mcreator.javaeditionplusplus.item.NokiaHammerItem;
 import net.mcreator.javaeditionplusplus.item.EnderSwordItem;
 import net.mcreator.javaeditionplusplus.item.EnderScaleItem;
+import net.mcreator.javaeditionplusplus.item.CopperSwordItem;
 import net.mcreator.javaeditionplusplus.item.AmongUsPickaxeItem;
 
 import java.util.List;
@@ -30,6 +33,9 @@ public class JavaeditionplusplusModItems {
 	public static final Item DRAGON_V_2 = register(new SpawnEggItem(JavaeditionplusplusModEntities.DRAGON_V_2, -1, -1,
 			new Item.Properties().tab(JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS)).setRegistryName("dragon_v_2_spawn_egg"));
 	public static final Item AMONG_US_PICKAXE = register(new AmongUsPickaxeItem());
+	public static final Item NOKIA = register(new NokiaItem());
+	public static final Item NOKIA_HAMMER = register(new NokiaHammerItem());
+	public static final Item COPPER_SWORD = register(new CopperSwordItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

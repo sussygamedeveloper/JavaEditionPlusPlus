@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nokiahammer",
+    "customModelName": "Normal",
+    "name": "Nokia Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:JavaEditionPlusPlus"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 0.25,
+    "enchantability": 25,
+    "damageVsEntity": 20.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

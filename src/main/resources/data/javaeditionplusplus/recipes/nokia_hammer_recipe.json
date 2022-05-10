@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "javaeditionplusplus:nokia"
+    },
+    "1": {
+      "item": "javaeditionplusplus:nokia"
+    },
+    "2": {
+      "item": "javaeditionplusplus:nokia"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "javaeditionplusplus:nokia_hammer",
+    "count": 1
+  }
+}

@@ -103,6 +103,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "among_us_pickaxe"
+    },
+    {
+      "name": "Nokia",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokia"
+    },
+    {
+      "name": "NokiaRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokia_recipe"
+    },
+    {
+      "name": "NokiaHammer",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokia_hammer"
+    },
+    {
+      "name": "NokiaHammerRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokia_hammer_recipe"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe"
     }
   ],
   "variable_elements": [],
@@ -113,8 +161,11 @@
       "item.javaeditionplusplus.shell_blade": "Shell Blade",
       "item.javaeditionplusplus.ender_scale": "Ender Scale",
       "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
+      "item.javaeditionplusplus.copper_sword": "Copper Sword",
+      "item.javaeditionplusplus.nokia": "Nokia",
       "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
       "item.javaeditionplusplus.ender_sword": "Ender Sword",
+      "item.javaeditionplusplus.nokia_hammer": "Nokia Hammer",
       "item.javaeditionplusplus.dragon_v_2_spawn_egg": "Dragon V 2 Spawn Egg",
       "itemGroup.tabjava_edition_plus_plus": "Java Edition Plus Plus"
     }
