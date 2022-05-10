@@ -57,26 +57,10 @@
       "registry_name": "ender_scale_recipe"
     },
     {
-      "name": "PearlScaleRightClickedInAir",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pearl_scale_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "PearlScale",
       "type": "item",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pearl_scale"
     },
@@ -100,7 +84,7 @@
       "name": "AmongUsPickaxe",
       "type": "tool",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "among_us_pickaxe"
     },

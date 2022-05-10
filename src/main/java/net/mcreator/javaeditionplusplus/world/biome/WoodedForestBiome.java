@@ -51,7 +51,7 @@ public class WoodedForestBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(-16777012).waterFogColor(329011)
-				.skyColor(7972607).foliageColorOverride(10387789).grassColorOverride(-16751104)
+				.skyColor(7972607).foliageColorOverride(-16724992).grassColorOverride(-16751104)
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("music.creative")), 12000, 24000, true))
 				.ambientParticle(new AmbientParticleSettings(JavaeditionplusplusModParticles.LEAVE, 0.01f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().surfaceBuilder(SURFACE_BUILDER);
