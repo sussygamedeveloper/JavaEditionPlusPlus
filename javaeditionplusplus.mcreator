@@ -151,23 +151,40 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword_recipe"
+    },
+    {
+      "name": "WoodedForest",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooded_forest"
+    },
+    {
+      "name": "Leave",
+      "type": "particle",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
       "item.javaeditionplusplus.shell_blade": "Shell Blade",
-      "item.javaeditionplusplus.ender_scale": "Ender Scale",
-      "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
       "item.javaeditionplusplus.copper_sword": "Copper Sword",
       "item.javaeditionplusplus.nokia": "Nokia",
+      "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
+      "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
+      "item.javaeditionplusplus.ender_scale": "Ender Scale",
       "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
       "item.javaeditionplusplus.ender_sword": "Ender Sword",
       "item.javaeditionplusplus.nokia_hammer": "Nokia Hammer",
       "item.javaeditionplusplus.dragon_v_2_spawn_egg": "Dragon V 2 Spawn Egg",
-      "itemGroup.tabjava_edition_plus_plus": "Java Edition Plus Plus"
+      "itemGroup.tabjava_edition_plus_plus": "Java Edition Plus Plus",
+      "biome.javaeditionplusplus.wooded_forest": "Wooded Forest"
     }
   },
   "foldersRoot": {
