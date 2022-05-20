@@ -13,6 +13,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.javaeditionplusplus.world.biome.WoodedForestBiome;
+import net.mcreator.javaeditionplusplus.world.biome.RedWoodForestBiome;
 import net.mcreator.javaeditionplusplus.JavaeditionplusplusMod;
 
 import java.util.List;
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 public class JavaeditionplusplusModBiomes {
 	private static final List<Biome> REGISTRY = new ArrayList<>();
 	public static Biome WOODED_FOREST = register("wooded_forest", WoodedForestBiome.createBiome());
+	public static Biome RED_WOOD_FOREST = register("red_wood_forest", RedWoodForestBiome.createBiome());
 
 	private static Biome register(String registryname, Biome biome) {
 		REGISTRY.add(biome.setRegistryName(new ResourceLocation(JavaeditionplusplusMod.MODID, registryname)));
@@ -37,6 +39,7 @@ public class JavaeditionplusplusModBiomes {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			WoodedForestBiome.init();
+			RedWoodForestBiome.init();
 		});
 	}
 }

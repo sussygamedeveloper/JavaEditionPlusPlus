@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "javaeditionplusplus:redwood_log"
+    }
+  ],
+  "result": {
+    "item": "javaeditionplusplus:redwood_plank",
+    "count": 4
+  }
+}

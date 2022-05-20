@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "javaeditionplusplus:blocks/logtop",
+    "up": "javaeditionplusplus:blocks/logtop",
+    "north": "javaeditionplusplus:blocks/log",
+    "east": "javaeditionplusplus:blocks/log",
+    "south": "javaeditionplusplus:blocks/log",
+    "west": "javaeditionplusplus:blocks/log",
+    "particle": "javaeditionplusplus:blocks/logtop"
+  }
+}

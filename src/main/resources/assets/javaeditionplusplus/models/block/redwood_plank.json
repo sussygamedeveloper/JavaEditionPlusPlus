@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "javaeditionplusplus:blocks/planks_redwood",
+    "up": "javaeditionplusplus:blocks/planks_redwood",
+    "north": "javaeditionplusplus:blocks/planks_redwood",
+    "east": "javaeditionplusplus:blocks/planks_redwood",
+    "south": "javaeditionplusplus:blocks/planks_redwood",
+    "west": "javaeditionplusplus:blocks/planks_redwood",
+    "particle": "javaeditionplusplus:blocks/planks_redwood"
+  }
+}

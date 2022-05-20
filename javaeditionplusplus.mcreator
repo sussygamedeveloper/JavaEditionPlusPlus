@@ -175,15 +175,50 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coca_cola"
+    },
+    {
+      "name": "RedwoodPlank",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_plank"
+    },
+    {
+      "name": "RedwoodLog",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_log"
+    },
+    {
+      "name": "RedWoodPlankRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wood_plank_recipe"
+    },
+    {
+      "name": "RedWoodForest",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wood_forest"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.javaeditionplusplus.redwood_plank": "Redwood Plank",
       "item.javaeditionplusplus.shell_blade": "Shell Blade",
       "item.javaeditionplusplus.copper_sword": "Copper Sword",
+      "block.javaeditionplusplus.redwood_log": "Redwood Log",
       "item.javaeditionplusplus.nokia": "Nokia",
+      "biome.javaeditionplusplus.red_wood_forest": "Red Wood Forest",
       "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
       "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
       "item.javaeditionplusplus.ender_scale": "Ender Scale",

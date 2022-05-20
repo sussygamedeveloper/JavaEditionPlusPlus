@@ -8,8 +8,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.javaeditionplusplus.item.ShellBladeItem;
 import net.mcreator.javaeditionplusplus.item.PearlScaleItem;
@@ -38,10 +41,17 @@ public class JavaeditionplusplusModItems {
 	public static final Item NOKIA_HAMMER = register(new NokiaHammerItem());
 	public static final Item COPPER_SWORD = register(new CopperSwordItem());
 	public static final Item COCA_COLA = register(new CocaColaItem());
+	public static final Item REDWOOD_PLANK = register(JavaeditionplusplusModBlocks.REDWOOD_PLANK,
+			JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS);
+	public static final Item REDWOOD_LOG = register(JavaeditionplusplusModBlocks.REDWOOD_LOG, JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
