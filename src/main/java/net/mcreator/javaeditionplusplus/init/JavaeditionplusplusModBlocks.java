@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.javaeditionplusplus.block.RedwoodPlankBlock;
 import net.mcreator.javaeditionplusplus.block.RedwoodLogBlock;
+import net.mcreator.javaeditionplusplus.block.RedwoodLeafBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ public class JavaeditionplusplusModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block REDWOOD_PLANK = register(new RedwoodPlankBlock());
 	public static final Block REDWOOD_LOG = register(new RedwoodLogBlock());
+	public static final Block REDWOOD_LEAF = register(new RedwoodLeafBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

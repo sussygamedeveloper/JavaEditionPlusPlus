@@ -44,6 +44,8 @@ public class JavaeditionplusplusModItems {
 	public static final Item REDWOOD_PLANK = register(JavaeditionplusplusModBlocks.REDWOOD_PLANK,
 			JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS);
 	public static final Item REDWOOD_LOG = register(JavaeditionplusplusModBlocks.REDWOOD_LOG, JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS);
+	public static final Item REDWOOD_LEAF = register(JavaeditionplusplusModBlocks.REDWOOD_LEAF,
+			JavaeditionplusplusModTabs.TAB_JAVA_EDITION_PLUS_PLUS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

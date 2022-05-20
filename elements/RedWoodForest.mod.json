@@ -56,7 +56,7 @@
       "value": "CUSTOM:RedwoodLog"
     },
     "treeBranch": {
-      "value": "Blocks.LEAVES"
+      "value": "CUSTOM:RedwoodLeaf"
     },
     "treeVines": {
       "value": "Blocks.AIR"

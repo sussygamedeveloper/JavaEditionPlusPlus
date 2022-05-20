@@ -53,18 +53,17 @@ public class RedWoodForestBiome {
 				.foliageColorOverride(10387789).grassColorOverride(9470285)
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("music.creative")), 12000, 24000, true)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().surfaceBuilder(SURFACE_BUILDER);
-		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				register("trees", Feature.TREE
-						.configured((new TreeConfiguration.TreeConfigurationBuilder(
-								new SimpleStateProvider(JavaeditionplusplusModBlocks.REDWOOD_LOG.defaultBlockState()),
-								new StraightTrunkPlacer(16, 2, 0), new SimpleStateProvider(Blocks.OAK_LEAVES.defaultBlockState()),
-								new SimpleStateProvider(Blocks.OAK_SAPLING.defaultBlockState()),
-								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)))
-										.decorators(ImmutableList.of(RedWoodForestLeaveDecorator.INSTANCE, RedWoodForestTrunkDecorator.INSTANCE,
-												RedWoodForestFruitDecorator.INSTANCE))
-										.build())
-						.decorated(Features.Decorators.HEIGHTMAP_SQUARE)
-						.decorated(FeatureDecorator.COUNT_EXTRA.configured(new FrequencyWithExtraChanceDecoratorConfiguration(16, 0.1F, 1)))));
+		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, register("trees", Feature.TREE
+				.configured((new TreeConfiguration.TreeConfigurationBuilder(
+						new SimpleStateProvider(JavaeditionplusplusModBlocks.REDWOOD_LOG.defaultBlockState()), new StraightTrunkPlacer(16, 2, 0),
+						new SimpleStateProvider(JavaeditionplusplusModBlocks.REDWOOD_LEAF.defaultBlockState()),
+						new SimpleStateProvider(Blocks.OAK_SAPLING.defaultBlockState()),
+						new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)))
+								.decorators(ImmutableList.of(RedWoodForestLeaveDecorator.INSTANCE, RedWoodForestTrunkDecorator.INSTANCE,
+										RedWoodForestFruitDecorator.INSTANCE))
+								.build())
+				.decorated(Features.Decorators.HEIGHTMAP_SQUARE)
+				.decorated(FeatureDecorator.COUNT_EXTRA.configured(new FrequencyWithExtraChanceDecoratorConfiguration(16, 0.1F, 1)))));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				register("grass",
 						Feature.RANDOM_PATCH.configured(Features.Configs.DEFAULT_GRASS_CONFIG).decorated(Features.Decorators.HEIGHTMAP_DOUBLE_SQUARE)

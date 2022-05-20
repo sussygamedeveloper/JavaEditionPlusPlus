@@ -207,6 +207,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_wood_forest"
+    },
+    {
+      "name": "RedwoodLeaf",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_leaf"
     }
   ],
   "variable_elements": [],
@@ -222,6 +230,7 @@
       "item.javaeditionplusplus.pearl_scale": "Pearl Scale",
       "item.javaeditionplusplus.among_us_pickaxe": "Among Us Pickaxe",
       "item.javaeditionplusplus.ender_scale": "Ender Scale",
+      "block.javaeditionplusplus.redwood_leaf": "Redwood Leaf",
       "item.javaeditionplusplus.coca_cola": "Coca Cola",
       "entity.javaeditionplusplus.dragon_v_2": "Dragon V 2",
       "item.javaeditionplusplus.ender_sword": "Ender Sword",
@@ -249,6 +258,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.javaeditionplusplus",
     "lockBaseModFiles": false
   },
